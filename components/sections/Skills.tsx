@@ -10,7 +10,16 @@ const skills = {
     'Cocoa Touch',
     'UIKit',
     'Core Data',
-    'XCTest'
+    'XCTest',
+    'Core Location',
+    'iBeacon'
+  ],
+  'Enterprise': [
+    'Sybase UltraLite',
+    'Microsoft SQL Server',
+    'MobiLink',
+    'RESTful APIs',
+    'Token-based Auth'
   ],
   'Tools': [
     'Xcode',
@@ -18,13 +27,21 @@ const skills = {
     'CocoaPods',
     'Firebase',
     'JIRA',
-    'AppStore Connect'
+    'AppStore Connect',
+    'SiteCatalyst'
   ],
   'Architecture': [
     'MVC',
     'MVVM',
     'MVM',
-    'Clean Architecture'
+    'Clean Architecture',
+    'SOLID Principles'
+  ],
+  'DevOps': [
+    'CI/CD',
+    'Fastlane',
+    'Firebase App Distribution',
+    'GitHub Actions'
   ],
   'Cloud': [
     'AWS',

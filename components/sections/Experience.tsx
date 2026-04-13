@@ -4,24 +4,24 @@ const experiences = [
     company: 'Rakuten Inc',
     location: 'Tokyo, Japan',
     period: 'Nov 2022 - Present',
-    description: 'Driving development of new Cash Transfer app. Improved project build time and loading time. Owner of ecosystem modules like SPS, Missions, Discovery, Wallet and Home tab.',
-    technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest']
+    description: 'Researching, analysing, and evaluating iOS software application system requirements in collaboration with backend and product teams to define API contracts, technical specifications, and scalable mobile architecture solutions. Designing and implementing scalable iOS software application architecture using Swift and MVVM. Developing core modules including Missions, SuperPoints, Wallet, Home Platform, and RCash. Refactoring code to improve modular architecture and SOLID principles. Maintaining CI/CD pipelines and migrating build distribution to Firebase App Distribution. Contributing to AI-assisted development tooling and conducting peer code reviews.',
+    technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'CI/CD', 'Firebase', 'REST APIs']
   },
   {
     title: 'Technical Lead',
     company: 'Rakuten India',
     location: 'Bangalore, India',
     period: 'Dec 2014 - Nov 2022',
-    description: 'Led development of Point Card App and SDK, winning best development project and best rated app awards with 4.6 rating. Delivered EventGate app single-handedly within 3 months.',
-    technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase']
+    description: 'Researching and analysing mobile software application system requirements across multiple Rakuten digital service platforms. Designing and developing iOS applications in Swift and Objective-C, delivering modules for content navigation, filtering workflows, and subscription management. Coding RESTful APIs, token-based authentication, Firebase analytics, and SiteCatalyst tracking. Developing reusable iOS SDK components and service frameworks. Implementing iBeacon proximity detection and Core Location frameworks. Designed and developed Rakuten Ticket iOS app end-to-end as sole developer. Writing automated build scripts and configuring CI pipelines.',
+    technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase', 'Core Location', 'iBeacon', 'REST APIs', 'CI/CD']
   },
   {
     title: 'Senior Software Engineer',
     company: 'Xsysys Technologies',
     location: 'Bangalore, India',
     period: 'Apr 2010 - Nov 2014',
-    description: 'Built SFIPad app from scratch and delivered to customers. Led development of iCatch iPhone app for Shell India. Led team of iOS engineers and provided training.',
-    technologies: ['Objective-C', 'Core Data', 'UIKit']
+    description: 'Researching, consulting, and evaluating software application system requirements within FMCG and enterprise mobility domains to identify functional gaps and define technical specifications. Designing and developing iOS mobile applications using Objective-C and iOS SDK for employee management, customer management, visit tracking, order entry, and operational reporting. Writing source code integrated with Sybase UltraLite mobile databases and Microsoft SQL Server enterprise backend systems. Configuring MobiLink data synchronisation for offline data capture. Developing reusable components including data grids, reporting modules, and search interfaces. Configuring Apple development tools, SCM systems, and Xcode CI environments.',
+    technologies: ['Objective-C', 'Core Data', 'UIKit', 'Sybase UltraLite', 'SQL Server', 'MobiLink', 'CI/CD']
   }
 ]
 

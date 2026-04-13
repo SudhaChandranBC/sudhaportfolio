@@ -1,42 +1,66 @@
 const projects = [
   {
+    title: 'LINK Mobile App',
+    category: 'Mobile Application - Rakuten Inc',
+    description: 'Contributing to architecture design, feature development, and performance optimization of the LINK mobile platform, supporting Rakuten mobile onboarding, digital loyalty services, wallet capabilities, and user engagement features across the Rakuten ecosystem.',
+    technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'CI/CD'],
+    image: '🔗',
+    link: '#'
+  },
+  {
     title: 'Rakuten Cash App',
-    category: 'Mobile Application',
-    description: 'Led development of new Cash Transfer app with improved performance. Implemented SPS, Missions, Discovery, Wallet and Home tab modules.',
-    technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest'],
+    category: 'Mobile Application - Rakuten Inc',
+    description: 'Led development of new Cash Transfer app with improved performance. Implemented SPS, Missions, Discovery, Wallet and Home tab modules. Refactored for modular architecture and SOLID principles.',
+    technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'Firebase'],
     image: '🏦',
     link: '#'
   },
   {
-    title: 'Point Card App',
-    category: 'Mobile Application',
-    description: 'Award-winning app with 4.6 rating. Best development project and best rated app awards. Built SDK and full application.',
-    technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase'],
+    title: 'RPointCard App & SDK',
+    category: 'Mobile Application - Rakuten India',
+    description: 'Led development of Rakuten\'s digital loyalty card mobile application and SDK framework, enabling integration of SuperPoints virtual card services within partner mobile applications. Award-winning app with 4.6 rating - best development project and best rated app awards.',
+    technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase', 'SDK Development'],
     image: '💳',
     link: '#'
   },
   {
-    title: 'EventGate App',
-    category: 'Mobile Application',
-    description: 'Single-handedly delivered complete event management app within 3 months. Streamlined event ticketing and access control.',
-    technologies: ['Swift', 'Core Data', 'UIKit'],
+    title: 'Rakuten Ticket (EventGate)',
+    category: 'Mobile Application - Rakuten India',
+    description: 'Designed and developed as sole iOS developer, delivering complete SDLC from requirement gathering and architecture to App Store release within two months. Implemented electronic ticketing features including purchasing, sharing, transfer, and resale functionality.',
+    technologies: ['Swift', 'Core Data', 'UIKit', 'REST APIs'],
     image: '🎫',
     link: '#'
   },
   {
-    title: 'SFIPad App',
-    category: 'Enterprise Solution',
-    description: 'Built enterprise iPad application from scratch for financial services. Delivered to multiple customers successfully.',
-    technologies: ['Objective-C', 'Core Data', 'UIKit'],
-    image: '📱',
+    title: 'Aquafadas Mobile Platform',
+    category: 'Mobile Application - Rakuten India',
+    description: 'Developed configurable iOS software application modules supporting dynamic content rendering and real-time customization, integrated Firebase analytics frameworks, and implemented subscription management workflows.',
+    technologies: ['Swift', 'Objective-C', 'Firebase', 'Analytics'],
+    image: '⚡',
     link: '#'
   },
   {
-    title: 'iCatch iPhone App',
-    category: 'Enterprise Solution',
-    description: 'Led development of iPhone application for Shell India. Managed team of iOS engineers and provided technical training.',
-    technologies: ['Objective-C', 'Core Location', 'MapKit'],
+    title: 'SFIpad – Sales Force Automation',
+    category: 'Enterprise Solution - Xsysys',
+    description: 'Led design and development of mobile enterprise iPad application supporting customer management, visit tracking, order entry, and reporting modules with offline synchronization capabilities using Sybase UltraLite and MobiLink.',
+    technologies: ['Objective-C', 'UIKit', 'Sybase UltraLite', 'MobiLink', 'SQL Server'],
+    image: '📊',
+    link: '#'
+  },
+  {
+    title: 'iCatch – Safety Incident Reporting',
+    category: 'Enterprise Solution - Xsysys',
+    description: 'Designed and developed iOS application used within Shell organization for incident reporting and employee safety compliance assessments. Progressed from Team Member to Project Lead role.',
+    technologies: ['Objective-C', 'Core Data', 'UIKit', 'Enterprise'],
     image: '⛽',
+    link: '#'
+  },
+  {
+    title: 'Sales Force+ Desktop App',
+    category: 'Enterprise Solution - Xsysys',
+    description: 'Contributed to development of PowerBuilder-based enterprise software application supporting customer management, order processing, and reporting functionality.',
+    technologies: ['PowerBuilder', 'SQL Server', 'Enterprise'],
+    image: '💻',
     link: '#'
   }
 ]
