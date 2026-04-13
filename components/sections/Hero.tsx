@@ -24,11 +24,15 @@ export default function Hero() {
           native code
         </h1>
 
+        {/* Headline */}
+        <p className="text-lg text-emerald-400 mb-4 max-w-4xl leading-relaxed animate-slide-up animate-delay-300 font-medium">
+          Senior iOS Engineer | Mobile Platform Architecture | Swift • MVVM • SDK Development | CI/CD | Scalable Mobile Systems | Technical Leadership | 15+ yrs
+        </p>
+
         {/* Description */}
         <p className="text-xl text-neutral-400 mb-12 max-w-3xl leading-relaxed animate-slide-up animate-delay-400">
           I'm Sudha, an Application Engineer at Rakuten Inc, Tokyo, where I craft
-          intuitive iOS experiences. With 15+ years of experience, I've delivered
-          award-winning apps and led cross-functional teams.
+          intuitive iOS experiences. I've delivered award-winning apps and led cross-functional teams.
         </p>
 
         {/* CTA and Social Links */}

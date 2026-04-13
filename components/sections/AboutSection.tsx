@@ -56,7 +56,9 @@ export default function AboutSection() {
         <div>
           <p className="text-sm font-mono text-emerald-400 mb-2">// About</p>
           <h1 className="text-5xl font-bold mb-2">Sudha Chandran BC</h1>
-          <p className="text-neutral-400 text-xl mb-8">iOS Developer</p>
+          <p className="text-neutral-400 text-lg mb-8 leading-relaxed">
+            Senior iOS Engineer | Mobile Platform Architecture | Swift • MVVM • SDK Development | CI/CD | Scalable Mobile Systems | Mobile Platform Engineering | Technical Leadership | 15+ yrs
+          </p>
 
           <div className="space-y-6 mb-8">
             <p className="text-neutral-300 leading-relaxed">
