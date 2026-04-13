@@ -55,7 +55,7 @@ export default function ContactSection() {
 
           {/* Phone */}
           <a
-            href="tel:+818083999775"
+            href="tel:+918861100855"
             className="flex items-center gap-4 p-4 rounded-lg bg-white/5 border border-white/10 hover:border-emerald-500/30 transition-all group"
           >
             <div className="p-3 rounded-lg bg-emerald-500/10">
@@ -65,7 +65,7 @@ export default function ContactSection() {
             </div>
             <div>
               <p className="text-sm text-neutral-500">Phone</p>
-              <p className="text-white group-hover:text-emerald-400 transition-colors">(+81) 070-8399-9775</p>
+              <p className="text-white group-hover:text-emerald-400 transition-colors">(+91) 8861100855</p>
             </div>
           </a>
 
