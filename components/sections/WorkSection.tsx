@@ -86,9 +86,12 @@ export default function WorkSection() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <div
+          <a
             key={index}
-            className="group relative p-6 rounded-xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-emerald-500/30 transition-all duration-300 hover:transform hover:scale-105"
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative p-6 rounded-xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-emerald-500/30 transition-all duration-300 hover:transform hover:scale-105 block"
           >
             {/* Project Icon/Image */}
             <div className="mb-4">
@@ -136,7 +139,7 @@ export default function WorkSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
