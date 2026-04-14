@@ -4,8 +4,8 @@ const projects = [
     category: 'Mobile Application - Rakuten Inc',
     description: 'Contributing to architecture design, feature development, and performance optimization of the LINK mobile platform, supporting Rakuten mobile onboarding, digital loyalty services, wallet capabilities, and user engagement features across the Rakuten ecosystem.',
     technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'CI/CD'],
-    image: '🔗',
-    link: '#'
+    image: '/link-icon.png',
+    link: 'https://apps.apple.com/jp/app/rakuten-link/id1498877539?l=en-US'
   },
   {
     title: 'Rakuten Cash App',
@@ -83,7 +83,13 @@ export default function WorkSection() {
             className="group relative p-6 rounded-xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-emerald-500/30 transition-all duration-300 hover:transform hover:scale-105"
           >
             {/* Project Icon/Image */}
-            <div className="text-6xl mb-4">{project.image}</div>
+            <div className="mb-4">
+              {project.image.startsWith('/') ? (
+                <img src={project.image} alt={project.title} className="w-16 h-16 rounded-xl object-cover" />
+              ) : (
+                <span className="text-6xl">{project.image}</span>
+              )}
+            </div>
 
             {/* Category */}
             <p className="text-xs font-mono text-emerald-400 mb-2">{project.category}</p>
