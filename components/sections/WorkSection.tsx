@@ -8,20 +8,28 @@ const projects = [
     link: 'https://apps.apple.com/jp/app/rakuten-link/id1498877539?l=en-US'
   },
   {
+    title: 'Rakuten Ichiba',
+    category: 'Mobile Application - Rakuten Inc',
+    description: 'Contributing to Japan\'s largest e-commerce marketplace app, enabling seamless shopping experience with Rakuten Points integration, personalized recommendations, and secure payment options.',
+    technologies: ['Swift', 'UIKit', 'MVVM', 'CI/CD', 'Analytics'],
+    image: '/rakuten-ichiba-icon.png',
+    link: 'https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?l=en-US'
+  },
+  {
     title: 'Rakuten Cash App',
     category: 'Mobile Application - Rakuten Inc',
     description: 'Led development of new Cash Transfer app with improved performance. Implemented SPS, Missions, Discovery, Wallet and Home tab modules. Refactored for modular architecture and SOLID principles.',
     technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'Firebase'],
-    image: '🏦',
-    link: '#'
+    image: '/rakuten-cash-icon.jpg',
+    link: 'https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%82%AB%E3%83%BC%E3%83%89-%E6%98%8E%E7%B4%B0%E7%A2%BA%E8%AA%8D-%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%97%E3%83%AA/id570105907'
   },
   {
-    title: 'RPointCard App & SDK',
+    title: 'Rakuten Card App and SDK',
     category: 'Mobile Application - Rakuten India',
     description: 'Led development of Rakuten\'s digital loyalty card mobile application and SDK framework, enabling integration of SuperPoints virtual card services within partner mobile applications. Award-winning app with 4.6 rating - best development project and best rated app awards.',
     technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase', 'SDK Development'],
-    image: '💳',
-    link: '#'
+    image: '/rakuten-card-icon.webp',
+    link: 'https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%82%82%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1139755229?l=en-US'
   },
   {
     title: 'Rakuten Ticket (EventGate)',
