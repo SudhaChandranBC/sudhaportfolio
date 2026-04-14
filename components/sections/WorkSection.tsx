@@ -36,7 +36,7 @@ const projects = [
     category: 'Mobile Application - Rakuten India',
     description: 'Received industry recognition for contributions to the Bookids mobile application, an interactive digital library for children. The award highlighted innovation in mobile entertainment and user experience within the digital media and publishing ecosystem.',
     technologies: ['Swift', 'UIKit', 'Core Data', 'In-App Purchase'],
-    image: '/bookids-icon.jpg',
+    image: '/bookids-icon.png',
     link: 'https://us19.campaign-archive.com/?e=&u=89557f67f7c46715ced9da72e&id=ba7d74c197'
   },
   {
