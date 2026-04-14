@@ -32,12 +32,20 @@ const projects = [
     link: 'https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%82%82%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1139755229?l=en-US'
   },
   {
+    title: 'Bookids by Nickelodeon',
+    category: 'Mobile Application - Rakuten India',
+    description: 'Received industry recognition for contributions to the Bookids mobile application, an interactive digital library for children. The award highlighted innovation in mobile entertainment and user experience within the digital media and publishing ecosystem.',
+    technologies: ['Swift', 'UIKit', 'Core Data', 'In-App Purchase'],
+    image: '/bookids-icon.webp',
+    link: 'https://us19.campaign-archive.com/?e=&u=89557f67f7c46715ced9da72e&id=ba7d74c197'
+  },
+  {
     title: 'Rakuten Ticket (EventGate)',
     category: 'Mobile Application - Rakuten India',
     description: 'Designed and developed as sole iOS developer, delivering complete SDLC from requirement gathering and architecture to App Store release within two months. Implemented electronic ticketing features including purchasing, sharing, transfer, and resale functionality.',
     technologies: ['Swift', 'Core Data', 'UIKit', 'REST APIs'],
-    image: '🎫',
-    link: '#'
+    image: '/rakuten-ticket-icon.png',
+    link: 'https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA/id1333359339'
   },
   {
     title: 'Aquafadas Mobile Platform',
