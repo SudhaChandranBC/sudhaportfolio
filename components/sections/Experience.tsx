@@ -4,7 +4,14 @@ const experiences = [
     company: 'Rakuten Inc',
     location: 'Tokyo, Japan',
     period: 'Nov 2022 - Present',
-    description: 'Researching, analysing, and evaluating iOS software application system requirements in collaboration with backend and product teams to define API contracts, technical specifications, and scalable mobile architecture solutions. Designing and implementing scalable iOS software application architecture using Swift and MVVM. Developing core modules including Missions, SuperPoints, Wallet, Home Platform, and RCash. Refactoring code to improve modular architecture and SOLID principles. Maintaining CI/CD pipelines and migrating build distribution to Firebase App Distribution. Contributing to AI-assisted development tooling and conducting peer code reviews.',
+    description: [
+      'Researching, analysing, and evaluating <strong>iOS software application</strong> system requirements in collaboration with backend and product teams',
+      'Designing and implementing scalable mobile architecture using <strong>Swift</strong>, <strong>SwiftUI</strong>, and <strong>MVVM</strong> patterns',
+      'Developing core modules: <strong>Missions</strong>, <strong>SuperPoints</strong>, <strong>Wallet</strong>, <strong>Home Platform</strong>, and <strong>RCash</strong>',
+      'Refactoring code to improve <strong>modular architecture</strong> and <strong>SOLID principles</strong>',
+      'Maintaining <strong>CI/CD pipelines</strong> and migrating build distribution to <strong>Firebase App Distribution</strong>',
+      'Contributing to <strong>AI-assisted development</strong> tooling and conducting peer code reviews'
+    ],
     technologies: ['Swift', 'SwiftUI', 'MVVM', 'XCTest', 'CI/CD', 'Firebase', 'REST APIs']
   },
   {
@@ -12,7 +19,15 @@ const experiences = [
     company: 'Rakuten India',
     location: 'Bangalore, India',
     period: 'Dec 2014 - Nov 2022',
-    description: 'Researching and analysing mobile software application system requirements across multiple Rakuten digital service platforms. Designing and developing iOS applications in Swift and Objective-C, delivering modules for content navigation, filtering workflows, and subscription management. Coding RESTful APIs, token-based authentication, Firebase analytics, and SiteCatalyst tracking. Developing reusable iOS SDK components and service frameworks. Implementing iBeacon proximity detection and Core Location frameworks. Designed and developed Rakuten Ticket iOS app end-to-end as sole developer. Writing automated build scripts and configuring CI pipelines.',
+    description: [
+      'Led iOS development across multiple <strong>Rakuten digital service platforms</strong> using <strong>Swift</strong> and <strong>Objective-C</strong>',
+      'Built modules for <strong>content navigation</strong>, <strong>filtering workflows</strong>, and <strong>subscription management</strong>',
+      'Implemented <strong>RESTful APIs</strong>, <strong>token-based authentication</strong>, <strong>Firebase analytics</strong>, and <strong>SiteCatalyst tracking</strong>',
+      'Developed reusable <strong>iOS SDK components</strong> and service frameworks',
+      'Implemented <strong>iBeacon proximity detection</strong> and <strong>Core Location</strong> frameworks',
+      'Designed and developed <strong>Rakuten Ticket iOS app</strong> end-to-end as sole developer',
+      'Configured <strong>automated build scripts</strong> and <strong>CI pipelines</strong>'
+    ],
     technologies: ['Swift', 'Objective-C', 'CocoaPods', 'Firebase', 'Core Location', 'iBeacon', 'REST APIs', 'CI/CD']
   },
   {
@@ -20,7 +35,15 @@ const experiences = [
     company: 'Xsysys Technologies',
     location: 'Bangalore, India',
     period: 'Apr 2010 - Nov 2014',
-    description: 'Researching, consulting, and evaluating software application system requirements within FMCG and enterprise mobility domains to identify functional gaps and define technical specifications. Designing and developing iOS mobile applications using Objective-C and iOS SDK for employee management, customer management, visit tracking, order entry, and operational reporting. Writing source code integrated with Sybase UltraLite mobile databases and Microsoft SQL Server enterprise backend systems. Configuring MobiLink data synchronisation for offline data capture. Developing reusable components including data grids, reporting modules, and search interfaces. Configuring Apple development tools, SCM systems, and Xcode CI environments.',
+    description: [
+      'Researched and evaluated system requirements for <strong>FMCG</strong> and <strong>enterprise mobility</strong> domains',
+      'Developed <strong>iOS mobile applications</strong> using <strong>Objective-C</strong> and iOS SDK',
+      'Built modules for <strong>employee management</strong>, <strong>customer management</strong>, <strong>visit tracking</strong>, and <strong>order entry</strong>',
+      'Integrated <strong>Sybase UltraLite</strong> mobile databases with <strong>Microsoft SQL Server</strong> backend',
+      'Configured <strong>MobiLink data synchronisation</strong> for offline data capture',
+      'Developed reusable components: <strong>data grids</strong>, <strong>reporting modules</strong>, and <strong>search interfaces</strong>',
+      'Configured <strong>Apple development tools</strong>, <strong>SCM systems</strong>, and <strong>Xcode CI</strong> environments'
+    ],
     technologies: ['Objective-C', 'Core Data', 'UIKit', 'Sybase UltraLite', 'SQL Server', 'MobiLink', 'CI/CD']
   }
 ]
@@ -80,8 +103,15 @@ export default function Experience() {
                     </div>
                   </div>
 
-                  {/* Description */}
-                  <p className="text-neutral-300 mb-4">{exp.description}</p>
+                  {/* Description - Bullet Points */}
+                  <ul className="text-neutral-300 mb-4 space-y-2">
+                    {exp.description.map((point, i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <span className="text-emerald-400 mt-1.5 flex-shrink-0">•</span>
+                        <span dangerouslySetInnerHTML={{ __html: point }} />
+                      </li>
+                    ))}
+                  </ul>
 
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2">
